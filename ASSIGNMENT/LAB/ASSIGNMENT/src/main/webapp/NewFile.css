@@ -1,0 +1,55 @@
+/*Create a webpage where: o You apply inline CSS to an element. o Use internal CSS for another element. o Link an external CSS file to style other elements. */
+
+
+
+
+/* Create the main HTML file index.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Demo Page</title>
+
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            color: darkblue;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color: green; text-align: center;">This is an Inline CSS Example</h1>
+
+    <!-- Internal CSS applied -->
+    <h2>This is styled using Internal CSS</h2>
+
+    <!-- External CSS applied -->
+    <p>This paragraph is styled using External CSS.</p>
+
+</body>
+</html>
+
+
+@charset "UTF-8";
+
+
+
+
+/* External CSS */
+p {
+    font-size: 18px;
+    color: brown;
+    background-color: #f0e68c;
+    padding: 10px;
+    border-radius: 5px;
+}
+<h1 style="color: green;">Text</h1>
+<style> h2 { color: darkblue; } </style>
+<link rel="stylesheet" href="styles.css">
